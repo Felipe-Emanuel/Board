@@ -219,7 +219,7 @@ export const getServerSideProps: GetServerSideProps = async ({
   if (!session?.id) {
     return {
       redirect: {
-        destination: "/",
+        destination: '/',
         permanent: false,
       },
     };
